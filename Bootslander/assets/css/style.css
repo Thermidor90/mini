@@ -8,8 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'ONE';
+  src: url('../css/ONE Mobile POP.ttf');
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "ONE", sans-serif;
   color: #444444;
 }
 
@@ -24,7 +29,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "ONE", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -113,6 +118,8 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+/* Header(헤더) 설정 */
 #header {
   height: 80px;
   transition: all 0.5s;
@@ -120,6 +127,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   background: rgba(91, 196, 228, 0.91);
 }
+/* Header(헤더) 설정 */
+
 #header.header-transparent {
   background: transparent;
 }
@@ -170,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "ONE", sans-serif;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
@@ -349,12 +358,17 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Home Section
 --------------------------------------------------------------*/
+
+/* Home쪽 이미지 */
 #hero {
   width: 100%;
   background: url("../img/hero-bg.jpg");
   position: relative;
   padding: 120px 0 0 0;
 }
+/* Home쪽 이미지 */
+
+/* Home쪽 배경색 */
 #hero:before {
   content: "";
   background: rgba(91, 196, 228, 0.91);
@@ -364,9 +378,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
 }
+/* Home쪽 배경색 */
+
 #hero h1 {
   margin: 0 0 20px 0;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 56px;
   color: rgba(255, 255, 255, 0.8);
@@ -381,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 #hero .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: "ONE", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -554,7 +570,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "ONE", sans-serif;
 }
 .section-title h2::after {
   content: "";
@@ -570,7 +586,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "ONE", sans-serif;
   color: #60c2E0;
 }
 
@@ -854,7 +870,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "ONE", sans-serif;
   font-size: 14px;
 }
 
@@ -1085,7 +1101,7 @@ section {
   font-size: 36px;
   color: #1acc8d;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "ONE", sans-serif;
   margin-bottom: 20px;
 }
 .pricing h4 sup {
@@ -1133,7 +1149,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  font-family: "ONE", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1179,7 +1195,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "ONE", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1366,7 +1382,7 @@ section {
   margin-bottom: 15px;
   background: #60b5d0;
   color: #fff;
-  border-top: 4px solid #00df8d;
+  border-top: 4px solid #00fb9f;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1383,7 +1399,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "ONE", sans-serif;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
