@@ -359,14 +359,14 @@ h1, h2, h3, h4, h5, h6 {
 # Home Section
 --------------------------------------------------------------*/
 
-/* Home쪽 이미지 */
+/* Home쪽 배경 이미지 */
 #hero {
   width: 100%;
   background: url("../img/hero-bg.jpg");
   position: relative;
   padding: 120px 0 0 0;
 }
-/* Home쪽 이미지 */
+/* Home쪽 배경 이미지 */
 
 /* Home쪽 배경색 */
 #hero:before {
