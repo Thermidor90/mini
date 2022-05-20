@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Home쪽 배경색 */
 #hero:before {
   content: "";
-  background: rgba(91, 196, 228, 0.91);
+  background: rgba(9, 185, 238, 0.91);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -652,7 +652,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 500;
-  color: #010483;
+  color: #35bdab;
   margin-bottom: 15px;
 }
 .about .icon-box {
