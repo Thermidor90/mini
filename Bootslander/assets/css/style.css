@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Home쪽 배경색 */
 #hero:before {
   content: "";
-  background: rgba(9, 185, 238, 0.91);
+  background: linear-gradient(to bottom, #01b6fd 40%, #0087EE 80%); /* rgba(9, 185, 238, 0.91); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1367,8 +1367,11 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+/* 최하단 배경색 */
+
 #footer {
-  background: #60C2E0;
+  background: linear-gradient(to bottom, #01b6fd 10%, #0087EE 80%); /* #60C2E0; */
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1376,8 +1379,9 @@ section {
 #footer .footer-top {
   padding: 60px 0 30px 0;
 }
+/* 최하단 배경색 */
 
-/* 출처 박스 */
+
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
   background: #60b5d0;
@@ -1386,7 +1390,7 @@ section {
   text-align: center;
   padding: 30px 20px;
 }
-/* 출처 박스 */
+
 
 #footer .footer-top .footer-info h3 {
   font-size: 24px;
